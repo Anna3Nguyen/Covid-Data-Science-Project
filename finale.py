@@ -25,7 +25,6 @@ def graph(date, data):
 	Number_of_Covid19_Cases = data
 	plt.plot(Day, Number_of_Covid19_Cases, color='magenta')
 	plt.title('Covid 19 Cases in a County', fontsize=20)
-# add in title that includes county name
 	plt.xlabel('Day', fontsize=16)
 	plt.ylabel('Number of Covid 19 Cases', fontsize=16)
 	plt.show()
